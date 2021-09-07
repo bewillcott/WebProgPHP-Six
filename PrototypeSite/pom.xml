@@ -8,6 +8,7 @@
     <packaging>jar</packaging>
     
     <name>Prototype Site</name>
+    <description>A simple PHP website for membership management.</description>
      
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

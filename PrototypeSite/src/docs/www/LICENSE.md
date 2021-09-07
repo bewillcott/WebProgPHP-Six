@@ -710,23 +710,16 @@ Public License instead of this License.  But first, please read
 
 
 @@@[#navbar]
-- [Home]
-- [Setup]
-    - [Configuration]
-    - [Command-line Options]
-- [Meta Blocks]
-    - [Named Meta Blocks]
+-  [Home]
+- [Administration](#)
+    - [Add User]
+    - [List Users]
 - [@right subactive] [About]
-    - [ToDo List]
     - [@active] [License](#)
 
 [About]:About.html
-[Configuration]:Configuration.html
+[Add User]:AddUser.html
 [Home]:index.html
 [License]:LICENSE.html
-[Meta Blocks]:Meta Blocks.html
-[Named Meta Blocks]:Named Meta Blocks.html
-[Command-line Options]:Options.html
-[Setup]:Setup.html
-[ToDo List]:ToDo.html
+[List Users]:ListUsers.html
 @@@

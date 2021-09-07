@@ -1,25 +1,23 @@
 @@@
 use : articles2
-title: ${document.name}
+title: ${document.name} | Setup
 @@@
 
 
-# ${document.name}
+## Add User
 
-${document.description}
-
-
+**TODO:** Create the data entry form.
 
 @@@[#navbar]
-- [@active] [Home](#)
-- [Administration](#)
-    - [Add Users]
+-  [Home]
+- [@subactive] [Administration](#)
+    - [@active] [Add User](#)
     - [List Users]
 - [@right] [About]
     - [License]
 
 [About]:About.html
-[Add Users]:AddUsers.html
+[Add User]:AddUser.html
 [Home]:index.html
 [License]:LICENSE.html
 [List Users]:ListUsers.html
