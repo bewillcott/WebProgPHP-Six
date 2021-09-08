@@ -25,9 +25,9 @@ article, footer {
 
 article {
     color: black;
-    background: #cacdcd;
+    background: rgb(244, 244, 248);
     margin: 1em auto;
-    padding: 1em 1.5em;
+    padding: 1em 2em;
     max-width: 50em;
     font-family: PT Serif, Georgia;
     line-height: 155%;
@@ -60,20 +60,10 @@ div.blockquote a.cite:active {
 }
 
 body {
-    background-color:#002f42;
+    background-color:#ffffff;
     color:#353833;
     font-family: Arial, Helvetica, sans-serif;
     font-size:13px;
-}
-
-header {
-    background-color: #33b5e5;
-    display: block;
-    font-size:18px;
-    text-align: center;
-    margin: 0;
-    padding: 10px;
-    font-weight: bold;
 }
 
 footer {
@@ -105,11 +95,11 @@ h6 {
 }
 
 hr.bold { 
-    border-width: 3px;
+  border-width: 3px;
 }
 
 hr.thick { 
-    border-width: 2px;
+  border-width: 2px;
 }
 
 ul {
@@ -152,7 +142,6 @@ ul.terms ul ul li {
 table {
     border: 4px solid black;
     border-collapse: collapse;
-    font-size: 12px;
 }
 
 table.center {
@@ -160,30 +149,12 @@ table.center {
     margin-right: auto;
 }
 
-table.hidden {
-    border: 0px;
-}
-
-table.hidden th {
-    border: 0px;
-    background-color: transparent; 
-}
-
-table.hidden td {
-    border: 0px;
-    background-color: transparent; 
-}
-
-table.hidden colgroup.border {
-    border: 1px solid black;
-}
-
 caption {
     border-left: 4px solid black;
     border-top: 4px solid black;
     border-right: 4px solid black;
     padding: 5px;
-    background-color: goldenrod;
+    background-color: gold;
     font-weight: bold;
 }
 
@@ -193,11 +164,11 @@ th {
     border-bottom: 3px solid red;
     padding: 5px;
     text-align: center;
-    background-color: goldenrod;
+    background-color: gold;
 }
 
 td {
-    background-color: lightgoldenrodyellow;
+    background-color: lightyellow;
     border: 1px solid black;
     padding: 5px;
 }
@@ -210,7 +181,7 @@ td.reset {
 }
 
 td.total {
-    background-color: pink;
+    background-color: lightpink;
     font-weight: bold;
     border: 2px solid red;
     padding: 5px;
@@ -219,31 +190,40 @@ td.total {
 pre {
     font-family: 'Courier New', monospace;
     font-size: 12px;
-    background-color: darkkhaki;
+    background-color: honeydew;
     display:table;
     padding: 0px 20px;
-    border: 1px solid slategray;
+    border: 1px solid lightgrey;
 }
 
 pre code {
     border: none;
     padding: 0px;
     margin: 0px;
-    background-color: darkkhaki;
+    background-color: honeydew;
 }
 
 code {
     font-family: 'Courier New', monospace;
-    background-color: #eff0f0;
+    background-color: background;
     font-size: 12px;
     padding: 0px 2px;
     margin-top:4px;
     line-height: 1.0em;
-    border: 1px solid slategray;
+    border: 1px solid lightgrey;
 }
 
-table code{
-    background-color: #eff0f0;
+dt code {
+    font-family: 'Courier New', monospace;
+    font-size:12px;
+    padding-top:4px;
+}
+
+table tr td dt code {
+    font-family: 'Courier New', monospace;
+    font-size:12px;
+    vertical-align:top;
+    padding-top:4px;
 }
 
 a {
@@ -358,20 +338,16 @@ a.upArrow:active {
     margin-right: 1px;
 }
 
+p.centre{
+    text-align: center;
+}
+
 sup {
     vertical-align: super;
     font-size: smaller;
     font-style: normal;
 }
 
-.centre{
-    text-align: center;
-}
-
 .quote {
     font-style: italic;
-}
-
-.right {
-    text-align: right;
 }

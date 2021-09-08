@@ -160,6 +160,24 @@ table.center {
     margin-right: auto;
 }
 
+table.hidden {
+    border: 0px;
+}
+
+table.hidden th {
+    border: 0px;
+    background-color: transparent; 
+}
+
+table.hidden td {
+    border: 0px;
+    background-color: transparent; 
+}
+
+table.hidden colgroup.border {
+    border: 1px solid black;
+}
+
 caption {
     border-left: 4px solid black;
     border-top: 4px solid black;
@@ -340,16 +358,20 @@ a.upArrow:active {
     margin-right: 1px;
 }
 
-p.centre{
-    text-align: center;
-}
-
 sup {
     vertical-align: super;
     font-size: smaller;
     font-style: normal;
 }
 
+.centre{
+    text-align: center;
+}
+
 .quote {
     font-style: italic;
+}
+
+.right {
+    text-align: right;
 }

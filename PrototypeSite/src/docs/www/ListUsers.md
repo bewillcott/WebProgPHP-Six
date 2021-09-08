@@ -6,7 +6,17 @@ title: ${document.name} | Setup
 
 ## List Users
 
-**TODO:** Create the table to display all the users' records.
+
+List of All Users
+| Full Name | Email address |
+| :-------- | :------------ |
+| Fred Smith | fred.smith@home.com |
+| Mary Adams | madams@where.ever.com |[@alt]
+| Jack Ryan | jack.ryan@movies.com |[@reset]
+| Bill James | bjames@gmail.com |
+| Peter Pan | pp01@nowhere.vil |
+
+
 
 @@@[#navbar]
 -  [Home]
@@ -17,7 +27,7 @@ title: ${document.name} | Setup
     - [License]
 
 [About]:About.html
-[Add User]:AddUser.html
+[Add User]:AddUser.php
 [Home]:index.html
 [License]:LICENSE.html
 [List Users]:ListUsers.html

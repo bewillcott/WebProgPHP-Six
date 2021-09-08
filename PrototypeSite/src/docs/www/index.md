@@ -9,17 +9,16 @@ title: ${document.name}
 ${document.description}
 
 
-
 @@@[#navbar]
 - [@active] [Home](#)
 - [Administration](#)
-    - [Add Users]
+    - [Add User]
     - [List Users]
 - [@right] [About]
     - [License]
 
 [About]:About.html
-[Add Users]:AddUsers.html
+[Add User]:AddUser.php
 [Home]:index.html
 [License]:LICENSE.html
 [List Users]:ListUsers.html
