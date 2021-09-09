@@ -63,7 +63,10 @@ title: Add Users | ${document.name}
                 $email = $vars_arr[EMAIL];
                 $result = false;
 
-                if (validateName($firstname) && validateName($lastname) && !empty($email)) {
+                validateName($firstname);
+                validateName($lastname);
+
+                if ($firstname[VALID] && $lastname[VALID] && !empty($email)) {
 
                     /* You should enable error reporting for mysqli before attempting to make a connection */
                     mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);

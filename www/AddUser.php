@@ -92,7 +92,10 @@ on Thu Sep 09 11:25:57 AWST 2021
                 $email = $vars_arr[EMAIL];
                 $result = false;
 
-                if (validateName($firstname) && validateName($lastname) && !empty($email)) {
+                validateName($firstname);
+                validateName($lastname);
+
+                if ($firstname[VALID] && $lastname[VALID] && !empty($email)) {
 
                     /* You should enable error reporting for mysqli before attempting to make a connection */
                     mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
