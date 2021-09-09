@@ -5,6 +5,6 @@ Rockingham, Western Australia.
 
 The project task is to a simple PHP website for membership management.
 
-|X|X|X| ***Under Construction*** |X|X|X|
+I have included a Java Application project (`PrototypeSite`) which is there to facilitate the generation 
+of the prototype site.
 
-:)
