@@ -7,7 +7,7 @@
     <version>1.0.0</version>
     <packaging>jar</packaging>
     
-    <name>Prototype Site</name>
+    <name>Human Resources</name>
     <description>A simple PHP website for membership management.</description>
      
     <properties>

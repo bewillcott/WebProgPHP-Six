@@ -1,6 +1,6 @@
 @@@
 use : articles2
-title: ${document.name} | About
+title: About | ${document.name}
 @@@
 
 

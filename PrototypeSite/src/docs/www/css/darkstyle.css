@@ -368,6 +368,10 @@ sup {
     text-align: center;
 }
 
+.error {
+    color: red;
+}
+
 .quote {
     font-style: italic;
 }
