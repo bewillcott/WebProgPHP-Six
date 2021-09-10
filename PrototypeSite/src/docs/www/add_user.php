@@ -1,5 +1,4 @@
 <?php
-
 /**
  *  File Name:    add_user.php
  *  Project Name: WebProgPHP-Six

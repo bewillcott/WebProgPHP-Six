@@ -25,7 +25,8 @@ on Thu Sep 09 11:25:57 AWST 2021
                         <li class="subactive"><a href="#">Administration</a>
                             <ul>
                                 <li><a href="AddUser.php">Add User</a></li>
-                                <li class="active"><a href="#">List Users</a></li></ul></li>
+                                <li class="active"><a href="#">List Users</a>
+                                </li></ul></li>
                         <li class="right"><a href="About.html">About</a>
                             <ul>
                                 <li><a href="LICENSE.html">License</a></li></ul></li>
@@ -46,8 +47,9 @@ on Thu Sep 09 11:25:57 AWST 2021
              * @package   Admin
              * @author    Bradley Willcott <bw.opensource@yahoo.com>
              * @copyright 2021 Bradley Willcott
-             * @license   https://www.gnu.org/licenses/gpl-3.0.txt GNU General Public License Version 3
-             * @version   Release: v1.0
+             * @license   https://www.gnu.org/licenses/gpl-3.0.txt GNU General
+             * Public License Version 3
+             * @version   GIT: v1.0
              * @link      ListUsers.php This file
              */
             mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
@@ -57,7 +59,10 @@ on Thu Sep 09 11:25:57 AWST 2021
             /* Set the desired charset after establishing a connection */
             $mysqli->set_charset('utf8mb4');
 
-            $result = $mysqli->query("SELECT `FirstName`, `LastName`, `Email` FROM `Users` ORDER BY `LastName`");
+            $result = $mysqli->query(
+                "SELECT `FirstName`, `LastName`, `Email` FROM `Users` ORDER BY "
+                . "`LastName`"
+            );
             $alt = false;
             ?>
 
@@ -78,11 +83,15 @@ on Thu Sep 09 11:25:57 AWST 2021
                 <tbody>
                     <?php while ($row = $result->fetch_assoc()) { ?>
                     <tr>
-                            <td <?php echo $alt ? 'class="alt" ' : ''; ?>style = "text-align: left">
-                                <?php echo $row["FirstName"] . " " . $row["LastName"]; ?>
+                        <td <?php echo $alt ? 'class="alt" ' : ''; ?>
+                                style = "text-align: left">
+                                    <?php echo $row["FirstName"] . " "
+                                    . $row["LastName"];
+                                    ?>
                             </td>
-                            <td <?php echo $alt ? 'class="alt" ' : ''; ?>style="text-align: left">
-                                <?php echo $row["Email"]; ?>
+                                <td <?php echo $alt ? 'class="alt" ' : ''; ?>
+                                    style="text-align: left">
+                                    <?php echo $row["Email"]; ?>
                             </td>
                         </tr>
                         <?php
@@ -94,7 +103,8 @@ on Thu Sep 09 11:25:57 AWST 2021
 
             <footer id="bottom">
                 <hr>
-                Copyright © 2021 <a href="mailto:bw.opensource@yahoo.com">Bradley Willcott</a><br>
+                Copyright © 2021 <a href="mailto:bw.opensource@yahoo.com">
+                    Bradley Willcott</a><br>
                 Last updated: Thu Sep 09 11:25:57 AWST 2021
             </footer>
         </article>
