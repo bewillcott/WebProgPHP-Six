@@ -4,7 +4,7 @@
     
     <groupId>com.bewsoftware.tafe</groupId>
     <artifactId>prototypesite</artifactId>
-    <version>1.0.0</version>
+    <version>1.1</version>
     <packaging>jar</packaging>
     
     <name>Human Resources</name>
